@@ -1,0 +1,124 @@
+@import "tailwindcss";
+/* Reset nhẹ nhàng */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+}
+
+/* Header */
+header,
+.header {
+    width: 100%;
+    height: 60px;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Form thêm */
+form {
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+form input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 6px 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Bảng */
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: #f1f1f1;
+}
+
+/* Nút hành động */
+button {
+    margin: 0 3px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button.save {
+    background: #28a745;
+    color: white;
+    border: none;
+}
+
+button.cancel {
+    background: #6c757d;
+    color: white;
+    border: none;
+}
+
+button.edit {
+    background: #ffc107;
+    border: none;
+    color: white;
+}
+
+button.delete {
+    background: #dc3545;
+    border: none;
+    color: white;
+}
+
+/* Phân trang */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    background: white;
+}
