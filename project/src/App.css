@@ -10,7 +10,7 @@ body {
     background-color: #f5f6fa;
 }
 
-/* Header */
+
 header,
 .header {
     width: 100%;
@@ -24,7 +24,7 @@ header,
     font-weight: bold;
 }
 
-/* Form thêm */
+
 form {
     margin: 20px auto;
     display: flex;
@@ -51,7 +51,7 @@ form button:hover {
     background: #0056b3;
 }
 
-/* Bảng */
+
 table {
     width: 90%;
     margin: auto;
@@ -72,7 +72,7 @@ table th {
     background: #f1f1f1;
 }
 
-/* Nút hành động */
+
 button {
     margin: 0 3px;
     padding: 4px 8px;
@@ -108,7 +108,6 @@ button.delete {
     color: white;
 }
 
-/* Phân trang */
 .pagination {
     display: flex;
     justify-content: center;
